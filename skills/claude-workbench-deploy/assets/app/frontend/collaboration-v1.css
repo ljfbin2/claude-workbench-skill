@@ -1,0 +1,8 @@
+.collaboration-toggle{display:flex;align-items:center;gap:10px;cursor:pointer;padding-block:6px}
+.collaboration-toggle input[type="checkbox"]{width:18px;height:18px;margin:0;flex-shrink:0;accent-color:var(--accent)}
+.collaboration-roles{padding-block:4px}
+.collaboration-roles[hidden]{display:none}
+#collaboration-session-title{overflow-wrap:anywhere;max-width:40ch}
+#collaboration-note{white-space:pre-line}
+.session-pin{display:inline-flex;vertical-align:middle;margin-right:5px;color:var(--muted)}
+.session-pin svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round}

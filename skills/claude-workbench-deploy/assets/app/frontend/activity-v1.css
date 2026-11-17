@@ -1,0 +1,5 @@
+#delivery-status{line-height:1.7;overflow-wrap:anywhere;min-height:1.5em;font-variant-numeric:tabular-nums}
+#delivery-status[data-warning="true"]{color:var(--danger,#a34a29)}
+#usage{white-space:pre-line;line-height:1.7;max-width:100%;font-variant-numeric:tabular-nums}
+#provider-status{min-width:0}#provider-status span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#task-status{font-variant-numeric:tabular-nums}

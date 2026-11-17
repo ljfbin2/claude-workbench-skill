@@ -1,0 +1,15 @@
+.composer-taskline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:3px 0 10px;padding:0 3px;min-height:28px}
+#composer-taskline #delivery-status{margin:0;flex:1;min-width:0;font-size:12px;line-height:1.6}
+.task-stop{display:inline-flex;align-items:center;justify-content:center;gap:6px;flex-shrink:0;background:transparent;border:0;color:var(--muted);font-size:12px;padding:5px 8px;border-radius:7px}
+.task-stop:hover:not(:disabled){background:var(--surface2);color:var(--text)}
+.task-stop svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.7}
+#send{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;min-height:34px;min-width:34px;padding:0;border-radius:11px;flex:none;background:var(--text);color:var(--surface);border-color:var(--text)}
+#send:hover:not(:disabled){background:var(--text);filter:brightness(.88)}
+#send svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#send:disabled{opacity:.35}
+.local-message .message-body{white-space:pre-wrap;overflow-wrap:anywhere}
+.send-receipt{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;padding-top:7px;color:var(--muted);font-size:11px;white-space:normal}
+.send-receipt[data-phase="failed"],.send-receipt[data-phase="uncertain"]{color:var(--danger)}
+.send-error-detail{overflow-wrap:anywhere;max-width:100%}
+.send-receipt button{font-size:12px}
+@media(max-width:700px){.composer-taskline{gap:7px}.task-stop{min-height:38px}.send-error-detail{flex-basis:100%}}

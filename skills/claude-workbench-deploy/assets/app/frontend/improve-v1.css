@@ -1,0 +1,1 @@
+.diagnostics-values{display:grid;grid-template-columns:minmax(100px,auto) 1fr;gap:10px 18px;margin:20px 0}.diagnostics-values dt{color:var(--muted)}.diagnostics-values dd{margin:0;overflow-wrap:anywhere}.diagnostics-values .diagnostic-error{color:var(--danger)}#diagnostics-dialog{width:min(560px,calc(100vw - 32px))}#diagnostics-notice{font-size:.875rem}

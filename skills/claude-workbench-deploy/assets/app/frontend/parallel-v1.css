@@ -1,0 +1,19 @@
+.session-runtime{flex:0 0 12px;width:12px;height:12px;box-sizing:border-box;border:1.5px solid var(--muted,#867761);border-top-color:transparent;border-radius:50%;margin-left:auto;opacity:.9}
+.session-runtime.spinning{animation:session-running 1s linear infinite}
+.session-runtime.uncertain,.session-runtime.needs-answer{border-color:var(--danger,#b84632);border-style:dashed}
+.session-runtime.stale{opacity:.45;animation:none}
+.session-runtime[hidden]{display:none}
+@keyframes session-running{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.session-runtime.spinning{animation:none;border-top-color:var(--muted,#867761)}}
+#composer-taskline{flex-wrap:wrap;row-gap:6px}
+#delivery-status{white-space:normal;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+#approval-panel{padding:14px;margin-bottom:10px;border:1px solid var(--border,#d7c9ab);border-radius:12px;background:var(--surface,#fff9eb);color:var(--text,#3e362b)}
+#approval-panel[hidden]{display:none}
+#approval-panel form{display:grid;gap:12px}
+#approval-panel fieldset{border:0;padding:0;margin:0;display:grid;gap:8px;min-width:0}
+#approval-panel legend{margin-bottom:8px}
+#approval-panel label{display:flex;align-items:start;gap:8px;flex-wrap:wrap}
+#approval-panel input[type=radio],#approval-panel input[type=checkbox]{width:auto;flex:0 0 auto;margin-top:4px}
+#approval-panel pre{max-height:240px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+#approval-panel .approval-actions{display:flex;gap:8px}
+#approval-panel p{margin:0}

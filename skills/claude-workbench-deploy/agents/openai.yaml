@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Workbench Deploy"
+  short_description: "Deploy a private Claude Code web workbench safely"
+  default_prompt: "Use $claude-workbench-deploy to plan, install and verify a fresh Claude Code web workbench on my Ubuntu server without copying personal data."

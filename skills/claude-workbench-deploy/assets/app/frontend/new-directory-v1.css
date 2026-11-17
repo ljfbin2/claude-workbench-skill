@@ -1,0 +1,7 @@
+#directory-dialog .directory-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#directory-dialog #choose-dir{margin-left:auto}
+.folder-form{margin:16px 0;padding:16px 0;border-block:1px solid var(--border)}
+.folder-form>label{display:block;font-weight:600;margin-bottom:8px}
+.folder-form #folder-name{width:100%}
+.folder-form .dialog-actions{margin-top:12px}
+#new-model-note{white-space:pre-line}
